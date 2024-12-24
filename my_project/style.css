@@ -1,0 +1,128 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin: 1rem 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+.about-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    margin: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-section img {
+    width: 200px; 
+    height: auto;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+.audio-section {
+    margin-top: 1rem;
+}
+
+.audio-section audio {
+    display: block;
+    margin: 0.5rem auto;
+    width: 80%;
+}
+
+.social-media-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    margin: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-media-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+nav .btnheader {
+    background-color: #007BFF; 
+    color: #fff;
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+nav .btnheader:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05);
+}
+
+nav .btnheader:active {
+    background-color: #003d80; 
+    transform: scale(0.95); 
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px; 
+}
